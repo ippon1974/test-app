@@ -12,7 +12,7 @@ class helloController extends Controller
             'name' => 'Rehan Khan',
             'age' => '55',
             'description' => 'hi hi hi hi',
-            'kewords' => 'разработка сайта на ларавель',
+            'kewords' => 'laravel, php',
             'uin' => '100'
         ]);
         return view('profile.hello');
