@@ -12,6 +12,7 @@ class helloController extends Controller
             'name' => 'Rehan Khan',
             'age' => '55',
             'description' => 'hi hi hi hi',
+            'kewords' => 'разработка сайта на ларавель',
             'uin' => '100'
         ]);
         return view('profile.hello');
