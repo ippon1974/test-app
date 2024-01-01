@@ -11,6 +11,7 @@ class helloController extends Controller
         echo $helloController = Post::create([
             'name' => 'Rehan Khan',
             'age' => '55',
+            'description' => 'hi hi hi hi',
             'uin' => '100'
         ]);
         return view('profile.hello');
