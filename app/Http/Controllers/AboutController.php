@@ -13,9 +13,10 @@ class AboutController extends Controller
         $post->age = "osel";
         $post->description = "osel";
         $post->kewords = "osel";
-        $post->uin = "1000000";
+        $post->uin = encrypt('my-secret-value');
+        
         $post->save();
-        //dd($post);
+        dd($post);
 
         return view('about');
     }
