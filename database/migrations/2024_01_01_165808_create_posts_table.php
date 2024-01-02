@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('age');
-            $table->string('uin');
+            $table->text('uin');
             $table->text('description');
             $table->text('kewords');
             $table->timestamps();
