@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\helloController;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\NewsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +23,4 @@ Route::get('/', function () {
 
 Route::get("/hellocontroller", [helloController::class, "hello"]);
 Route::get("/about", [AboutController::class, 'about']);
+Route::get("/news", [NewsController::class, 'news']);
