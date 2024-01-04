@@ -24,3 +24,7 @@ Route::get('/', function () {
 Route::get("/hellocontroller", [helloController::class, "hello"]);
 Route::get("/about", [AboutController::class, 'about']);
 Route::get("/news", [NewsController::class, 'news']);
+
+Route::get('/test', function () {
+    return view('test');
+});
