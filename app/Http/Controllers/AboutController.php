@@ -16,7 +16,7 @@ class AboutController extends Controller
         $post->uin = encrypt('100');
         
         $post->save();
-        dd($post);
+        //dd($post);
 
         return view('about');
     }
