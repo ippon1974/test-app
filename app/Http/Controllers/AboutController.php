@@ -9,7 +9,7 @@ class AboutController extends Controller
 {
     public function about(){
         $post = new Post();
-        $post->name = "Dolboeb";
+        $post->name = "Vovan";
         $post->age = "osel";
         $post->description = "osel";
         $post->kewords = "osel";
@@ -17,7 +17,6 @@ class AboutController extends Controller
         
         $post->save();
         //dd($post);
-
         return view('about');
     }
 }
